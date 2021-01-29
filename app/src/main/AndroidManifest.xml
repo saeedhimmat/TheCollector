@@ -12,7 +12,7 @@
         android:label="THE COLLECTOR"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TheFather">
+        android:theme="@style/Theme.TheCollector">
 
         <uses-library
             android:name="com.google.android.wearable"
