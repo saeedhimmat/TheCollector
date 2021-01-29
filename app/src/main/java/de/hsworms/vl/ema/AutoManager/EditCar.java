@@ -138,7 +138,7 @@ public class EditCar extends AppCompatActivity implements DatePickerDialog.OnDat
 
             try {
                 bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), imageUri);
-                bitmap =BitmapExtraConverters.getResizedBitmap(bitmap,495);
+                bitmap =BitmapExtraConverters.getResizedBitmap(bitmap,400);
                 ProfileImage.setImageBitmap(bitmap);
             } catch (IOException e) {
                 e.printStackTrace();

@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
         if(requestCode==1){
             if(resultCode==RESULT_OK){
                 ArrayList<Cars> buffer ;
-                System.out.println("hereee");
                 buffer= data.getParcelableArrayListExtra("Cars");
                 exampleList.addAll(buffer);
                 buildRecyclerView();

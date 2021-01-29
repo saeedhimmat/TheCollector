@@ -171,7 +171,7 @@ public class AddCarsActivity extends AppCompatActivity implements DatePickerDial
 
             try {
                 bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), imageUri);
-                bitmap =BitmapExtraConverters.getResizedBitmap(bitmap,495);
+                bitmap =BitmapExtraConverters.getResizedBitmap(bitmap,400);
                 ProfileImage.setImageBitmap(bitmap);
             } catch (IOException e) {
                 e.printStackTrace();
